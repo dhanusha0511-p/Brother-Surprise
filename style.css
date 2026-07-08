@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #3f1336, #1b5fd4);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    background: rgba(44, 39, 39, 0.1);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.slideshow {
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message h2 {
+    color: #FFD700;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.message p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 18px;
+    background: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #bd2759;
+    transform: scale(1.05);
+}
+#playBtn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    padding:15px 25px;
+    border:none;
+    border-radius:50px;
+    background:#ff4081;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+#playBtn:hover{
+    transform:scale(1.1);
+}
